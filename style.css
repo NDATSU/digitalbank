@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: white;
+  overflow-x: hidden;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 10%;
+  background: white;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 35px;
+}
+nav a {
+  text-decoration: none;
+  color: #6b6b6b;
+  font-size: 15px;
+  transition: 0.2s;
+}
+nav a:hover { 
+  color: black; 
+}
+.btn.invite {
+  background: linear-gradient(135deg, #31cf7c, #2bb7da);
+  color: white;
+  padding: 12px 28px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 15px;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 80px 10%;
+  position: relative;
+}
+.hero-img {
+  width: 600px;
+  position: relative;
+}
+.overlay-image {
+  position: absolute;
+  top: 30px; 
+  left: 60px;
+  width: 300px;
+  opacity: 0.9; 
+}
+.background-image {
+  width: 500px;
+  display: block;
+}
+.hero-text h1 {
+  font-size: 52px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.hero-text p {
+  width: 70%;
+  margin-bottom: 25px;
+  color: #5b5b5b;
+}
+.why {
+  background: #f4f5f7;
+  padding: 90px 10%;
+  text-align: center;
+}
+.features {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-top: 50px;
+}
+.feature img { 
+  width: 65px; 
+}
+.articles {
+  padding: 80px 10%;
+}
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+.card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.text { 
+  padding: 20px; 
+}
+footer {
+  background: #2d314d;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 10%;
+}
+.footer-left, .footer-right {
+  display: flex; 
+  flex-direction: 
+  column; gap: 25px;
+}
+.footer-links { 
+  display: flex; 
+  flex-direction: column; 
+  gap: 12px; 
+}
+.footer-links a { 
+  text-decoration: none; 
+  color: #d5d5d5; 
+}
